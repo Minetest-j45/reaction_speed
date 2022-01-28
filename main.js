@@ -1,4 +1,4 @@
-var btn = document.getElementById('btn');
+var btn = document.getElementById('speed');
 var txt = document.getElementById('txt');
 
 var started = false;
@@ -28,7 +28,7 @@ function onClick() {
     else if (!started) {
         started = true;
         txt.innerHTML = 'Click me when I turn green.';
-        var waittime = Math.random() * (5 - 0);
+        var waittime = Math.random() * (5 - 0.1) + 0.1;
         setTimeout(btnGreen, waittime*1000);
     }
     else if (green) {
