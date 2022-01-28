@@ -4,10 +4,14 @@ body {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	font-family: 'Lucida Console', "Courier New", monospace;
+    overflow: hidden;
 }
 
 #speed {
-    height : 70%;
-    width : 70%;
-    background-color : #cc000a;
+    position: absolute;
+    height:75%;
+    width:75%;
+    left: 12.5%;
+    top: 12.5%;
+    background-color: #cc000a;
 }
