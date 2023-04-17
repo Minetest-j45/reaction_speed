@@ -40,5 +40,3 @@ function onClick() {
         txt.innerHTML = 'You clicked me too soon. Click me when I turn green.';
     }
 }
-
-main();
